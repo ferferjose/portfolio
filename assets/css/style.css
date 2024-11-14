@@ -83,10 +83,19 @@ h1 .subtitle{
 }
 .vh100{
     height: 100vh;
+    width: 100%;
 }
 .vh100 h2{
     padding: 1rem 2rem;
     font-size: 5rem;
     font-weight: 700;
-
+}
+.container{
+    width: 85%;
+    border: 1px solir var(--detalles);
+}
+@media (max-width: 468px) {
+    .vh100 h2{
+        text-align: center;
+    }
 }
