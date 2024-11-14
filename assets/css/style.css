@@ -72,7 +72,7 @@ h1 .subtitle{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-15px); /* Ajusta el valor para cambiar la altura del movimiento */
+        transform: translateY(-40px); /* Ajusta el valor para cambiar la altura del movimiento */
     }
 }
 .vh80 div img {
