@@ -22,8 +22,6 @@ header{
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 header img{
     height:70%;
@@ -47,6 +45,7 @@ h1{
     font-weight: 700;
     text-align: center;
     font-size: 7rem;
+    margin-top: -6rem; /* No mires esta linea porfa si eres una empresa es porque lo estoy haciendo a contrareloj */
 }
 h1 .subtitle{
     display: block;
