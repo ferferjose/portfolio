@@ -135,6 +135,7 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
 
 }
 
@@ -255,4 +256,18 @@ footer a svg:hover{
 }
 .mail:hover{
     background-color: red;
+}
+@media (max-width: 768px) {
+    footer a svg{
+        color: white;
+    }
+    .git{
+        background-color: purple;
+    }
+    .linkedin{
+        background-color: blue;
+    }
+    .mail{
+        background-color: red;
+    }
 }
