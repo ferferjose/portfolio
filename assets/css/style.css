@@ -124,6 +124,18 @@ h1{
     background-size: cover;
     background-position: center;
 }
+#five {
+    background: url('../img/reciclaje.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#six {
+    background: url('../img/headerEscalado.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .card {
     color: white;
